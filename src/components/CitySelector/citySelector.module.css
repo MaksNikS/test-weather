@@ -1,0 +1,69 @@
+.city {
+  max-width: 378px;
+  width: 100%;
+}
+
+.city__location {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.city__controller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.city__selector {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.city__select {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  background: transparent;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.city__text {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.city__icon {
+  width: 30px;
+}
+
+@media (max-width: 550px) {
+  .city {
+    max-width: 214px;
+  }
+  .city__select, .city__selector {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .city__text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .city__icon {
+    width: 20px;
+  }
+}
